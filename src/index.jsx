@@ -4,12 +4,15 @@ import {render} from "react-dom"
 import {GlobalStyles} from "./globalStyles"
 // Root Component
 import App from "./App"
+import {AppProvider} from "./content/AppContext"
 
 // Render Components
 render(
     <>
         <GlobalStyles/>
-        <App/>
+        <AppProvider>
+            <App/>
+        </AppProvider>
     </>,
     document.getElementById("root")
 )

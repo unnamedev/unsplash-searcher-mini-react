@@ -137,5 +137,6 @@ export const GlobalStyles = createGlobalStyle`
     line-height: var(--base-line-height);
     font-family: var(--base-font-family);
     font-weight: 400;
+    background: #f8f8f8;
   }
 `
