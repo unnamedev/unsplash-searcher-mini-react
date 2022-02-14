@@ -14,6 +14,15 @@ const Header = styled.header`
   padding-bottom: calc(100px + (250 - 100) * ((100vw - 300px) / (1920 - 300)));
   position: relative;
 `
+const Title = styled.h1`
+  position: relative;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: calc(30px + (80 - 30) * ((100vw - 300px) / (1920 - 300)));
+`
 const BackImage = styled.div`
   position: absolute;
   height: 100%;
@@ -73,6 +82,7 @@ const App = () => {
         {/* Header */}
         <Header>
             <BackImage bg={headerBg}/>
+            <Title>Unsplash Searcher</Title>
             {/* Form */}
             <Form/>
         </Header>
