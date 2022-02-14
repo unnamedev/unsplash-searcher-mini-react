@@ -13,6 +13,7 @@ const Header = styled.header`
   padding-top: calc(100px + (250 - 100) * ((100vw - 300px) / (1920 - 300)));
   padding-bottom: calc(100px + (250 - 100) * ((100vw - 300px) / (1920 - 300)));
   position: relative;
+  overflow: hidden;
 `
 const Title = styled.h1`
   position: relative;
